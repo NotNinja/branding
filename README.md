@@ -9,6 +9,7 @@ This repository contains branding assets and guidelines for [!ninja](https://not
 3. [Assets](https://github.com/NotNinja/branding/blob/master/docs/assets.md)
   1. [Banners](https://github.com/NotNinja/branding/blob/master/docs/assets.md#banners)
   2. [Logos](https://github.com/NotNinja/branding/blob/master/docs/assets.md#logos)
+  3. [Social](https://github.com/NotNinja/branding/blob/master/docs/assets.md#social)
 
 ## Generating
 

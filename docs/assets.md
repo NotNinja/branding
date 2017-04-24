@@ -4,6 +4,7 @@ TODO: Introduction to assets
 
 1. [Banners](#banners)
 2. [Logos](#logos)
+3. [Social](#social)
 
 ## Banners
 
@@ -60,6 +61,19 @@ TODO: Introduction to logos and their usage
 | Min | 300x300 | image/png | [![not-ninja-logo-min-300x300.png](https://rawgit.com/NotNinja/branding/master/assets/logo/min/not-ninja-logo-min-300x300.png)](https://rawgit.com/NotNinja/branding/master/assets/logo/min/not-ninja-logo-min-300x300.png) |
 | Min | 512x512 | image/png | [![not-ninja-logo-min-512x512.png](https://rawgit.com/NotNinja/branding/master/assets/logo/min/not-ninja-logo-min-512x512.png)](https://rawgit.com/NotNinja/branding/master/assets/logo/min/not-ninja-logo-min-512x512.png) |
 | Min | 2800x2800 | image/png | [![not-ninja-logo-min-2800x2800.png](https://rawgit.com/NotNinja/branding/master/assets/logo/min/not-ninja-logo-min-2800x2800.png)](https://rawgit.com/NotNinja/branding/master/assets/logo/min/not-ninja-logo-min-2800x2800.png) |
+
+## Social
+
+TODO: Introduction to social images and their usage
+
+| Class | Dimensions | Format | Image |
+| ----- | ---------- | ------ | ----- |
+| Facebook Cover | 828x315 | image/png | [![not-ninja-facebook-cover.png](https://rawgit.com/NotNinja/branding/master/assets/social/facebook/not-ninja-facebook-cover.png)](https://rawgit.com/NotNinja/branding/master/assets/social/facebook/not-ninja-facebook-cover.png) |
+| Google+ Cover | 1600x900 | image/png | [![not-ninja-google-plus-cover.png](https://rawgit.com/NotNinja/branding/master/assets/social/google-plus/not-ninja-google-plus-cover.png)](https://rawgit.com/NotNinja/branding/master/assets/social/google-plus/not-ninja-google-plus-cover.png) |
+| Twitter Header | 3000x1000 | image/png | [![not-ninja-twitter-header.png](https://rawgit.com/NotNinja/branding/master/assets/social/twitter/not-ninja-twitter-header.png)](https://rawgit.com/NotNinja/branding/master/assets/social/twitter/not-ninja-twitter-header.png) |
+
+The [background image](https://www.pexels.com/photo/bamboo-plant-129916/) for the social images was taken by the Erol
+Ahmed and sourced from [Pexels](https://www.pexels.com) under the Creative Commons Zero (CC0) license.
 
 ## Copyright
 
