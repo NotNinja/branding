@@ -1,0 +1,36 @@
+{
+  "name": "not-ninja-branding",
+  "version": "0.1.0",
+  "description": "Branding assets and guidelines for !ninja",
+  "homepage": "https://github.com/NotNinja/branding",
+  "bugs": {
+    "url": "https://github.com/NotNinja/branding/issues"
+  },
+  "author": {
+    "name": "Alasdair Mercer",
+    "email": "mercer.alasdair@gmail.com",
+    "url": "https://not.ninja"
+  },
+  "keywords": [
+    "not",
+    "ninja",
+    "notninja",
+    "branding"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/NotNinja/branding.git"
+  },
+  "devDependencies": {
+    "del": "^2.2.2",
+    "glob": "^7.1.1",
+    "svg2png": "^4.1.1"
+  },
+  "scripts": {
+    "build": "node scripts/build"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "private": true
+}
