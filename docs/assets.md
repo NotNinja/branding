@@ -12,8 +12,8 @@ TODO: Introduction to banners and their usage
 
 | Class | Dimensions | Format | Image |
 | ----- | ---------- | ------ | ----- |
-| Base | 356x100 | image/svg+xml | [![not-ninja-banner.svg](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner.svg)](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner.svg) |
-| Base | 356x100 | image/png | [![not-ninja-banner-356x100.png](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner-356x100.png)](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner-356x100.png) |
+| Base | 354x100 | image/svg+xml | [![not-ninja-banner.svg](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner.svg)](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner.svg) |
+| Base | 354x100 | image/png | [![not-ninja-banner-354x100.png](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner-354x100.png)](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner-354x100.png) |
 
 ## Logos
 
