@@ -3,8 +3,9 @@
 TODO: Introduction to assets
 
 1. [Banners](#banners)
-2. [Logos](#logos)
-3. [Social](#social)
+2. [Copyright](#copyright)
+3. [Logos](#logos)
+4. [Social](#social)
 
 ## Banners
 
@@ -14,6 +15,15 @@ TODO: Introduction to banners and their usage
 | ----- | ---------- | ------ | ----- |
 | Base | 354x100 | image/svg+xml | [![not-ninja-banner.svg](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner.svg)](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner.svg) |
 | Base | 354x100 | image/png | [![not-ninja-banner-354x100.png](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner-354x100.png)](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner-354x100.png) |
+
+## Copyright
+
+TODO: Introduction to copyright images and their usage
+
+| Class | Dimensions | Format | Image |
+| ----- | ---------- | ------ | ----- |
+| Base | 744x100 | image/svg+xml | [![not-ninja-copyright.svg](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright.svg)](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright.svg) |
+| Base | 744x100 | image/png | [![not-ninja-copyright-744x100.png](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-744x100.png)](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-744x100.png) |
 
 ## Logos
 
@@ -75,6 +85,4 @@ TODO: Introduction to social images and their usage
 The [background image](https://www.pexels.com/photo/bamboo-plant-129916/) for the social images was taken by the Erol
 Ahmed and sourced from [Pexels](https://www.pexels.com) under the Creative Commons Zero (CC0) license.
 
-## Copyright
-
-© 2017 [!ninja](https://not.ninja)
+[![Copyright !ninja](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright.svg)](https://not.ninja)

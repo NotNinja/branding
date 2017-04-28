@@ -8,13 +8,12 @@ This repository contains branding assets and guidelines for [!ninja](https://not
    1. [Palette](https://github.com/NotNinja/branding/blob/master/docs/colors.md#palette)
 3. [Assets](https://github.com/NotNinja/branding/blob/master/docs/assets.md)
    1. [Banners](https://github.com/NotNinja/branding/blob/master/docs/assets.md#banners)
-   2. [Logos](https://github.com/NotNinja/branding/blob/master/docs/assets.md#logos)
-   3. [Social](https://github.com/NotNinja/branding/blob/master/docs/assets.md#social)
+   2. [Copyright](https://github.com/NotNinja/branding/blob/master/docs/assets.md#copyright)
+   3. [Logos](https://github.com/NotNinja/branding/blob/master/docs/assets.md#logos)
+   4. [Social](https://github.com/NotNinja/branding/blob/master/docs/assets.md#social)
 
 ## Generating
 
 TODO: Document generating assets using script
 
-## Copyright
-
-© 2017 [!ninja](https://not.ninja)
+[![Copyright !ninja](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright.svg)](https://not.ninja)
