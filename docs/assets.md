@@ -27,6 +27,9 @@ TODO: Introduction to copyright images and their usage
 | Base | 744x100 | image/svg+xml | [![not-ninja-copyright.svg](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright.svg)](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright.svg) |
 | Base | 372x50 | image/png | [![not-ninja-copyright-372x50.png](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-372x50.png)](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-372x50.png) |
 | Base | 744x100 | image/png | [![not-ninja-copyright-744x100.png](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-744x100.png)](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-744x100.png) |
+| Invert | 744x100 | image/svg+xml | [![not-ninja-copyright-invert.svg](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-invert.svg)](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-invert.svg) |
+| Invert | 372x50 | image/png | [![not-ninja-copyright-invert-372x50.png](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-invert-372x50.png)](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-invert-372x50.png) |
+| Invert | 744x100 | image/png | [![not-ninja-copyright-invert-744x100.png](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-invert-744x100.png)](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-invert-744x100.png) |
 
 ## Logos
 

@@ -67,28 +67,19 @@
     <symbol id="n-char" viewBox="0 0 68 100">
       <path d="M 0 93 V 7 C 0 7, 0 2, 5 2 H 15 C 15 2, 20 2, 22.5 7 L 46 54 C 46 54, 48 58, 48 54 V 7 C 48 7, 48 2, 53 2 H 63 C 63 2, 68 2, 68 7 V 93 C 68 93, 68 98, 63 98 H 53 C 53 98, 48 98, 45.5 93 L 22 46 C 22 46, 20 42, 20 46 V 93 C 20 93, 20 98, 15 98 H 5 C 5 98, 0 98, 0 93 Z" fill="white" stroke="none" />
     </symbol>
-
-    <mask id="main-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="744" height="100">
-      <use xlink:href="#2-char" x="2" y="0" width="68" height="100" />
-      <use xlink:href="#0-char" x="78" y="0" width="68" height="100" />
-      <use xlink:href="#1-char" x="154" y="0" width="30" height="100" />
-      <use xlink:href="#7-char" x="192" y="0" width="68" height="100" />
-
-      <use xlink:href="#copyright-char" x="292" y="0" width="68" height="100" />
-
-      <use xlink:href="#exclamation-char" x="392" y="0" width="20" height="100" />
-      <use xlink:href="#n-char" x="420" y="0" width="68" height="100" />
-      <use xlink:href="#i-char" x="496" y="0" width="20" height="100" />
-      <use xlink:href="#n-char" x="524" y="0" width="68" height="100" />
-      <use xlink:href="#j-char" x="600" y="0" width="68" height="100" />
-      <use xlink:href="#a-char" x="676" y="0" width="68" height="100" />
-    </mask>
-
-    <linearGradient id="main-gradient" x1="0" x2="0" y1="0" y2="1">
-      <stop offset="0%" stop-color="#7700CF" />
-      <stop offset="50%" stop-color="#4B0082" />
-    </linearGradient>
   </defs>
 
-  <rect x="0" y="0" width="744" height="100" fill="url(#main-gradient)" stroke="none" mask="url(#main-mask)" />
+  <use xlink:href="#2-char" x="2" y="0" width="68" height="100" />
+  <use xlink:href="#0-char" x="78" y="0" width="68" height="100" />
+  <use xlink:href="#1-char" x="154" y="0" width="30" height="100" />
+  <use xlink:href="#7-char" x="192" y="0" width="68" height="100" />
+
+  <use xlink:href="#copyright-char" x="292" y="0" width="68" height="100" />
+
+  <use xlink:href="#exclamation-char" x="392" y="0" width="20" height="100" />
+  <use xlink:href="#n-char" x="420" y="0" width="68" height="100" />
+  <use xlink:href="#i-char" x="496" y="0" width="20" height="100" />
+  <use xlink:href="#n-char" x="524" y="0" width="68" height="100" />
+  <use xlink:href="#j-char" x="600" y="0" width="68" height="100" />
+  <use xlink:href="#a-char" x="676" y="0" width="68" height="100" />
 </svg>

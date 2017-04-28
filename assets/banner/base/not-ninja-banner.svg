@@ -48,5 +48,5 @@
     </linearGradient>
   </defs>
 
-  <rect x="0" y="0" width="354" height="100" fill="url(#main-gradient)" stroke="null" mask="url(#main-mask)" />
+  <rect x="0" y="0" width="354" height="100" fill="url(#main-gradient)" stroke="none" mask="url(#main-mask)" />
 </svg>
