@@ -15,4 +15,6 @@ TODO: Introduction to palette
 | Primary | `#4B0082` | 75, 0, 130 | 42, 100, 0, 49 |
 | Secondary | `#7700CF` | 119, 0, 207 | 43, 100, 0, 19 |
 
-[![Copyright !ninja](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-744x100.png)](https://not.ninja)
+---
+
+[![Copyright !ninja](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-372x50.png)](https://not.ninja)

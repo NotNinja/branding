@@ -7,19 +7,23 @@ const glob = require('glob');
 const path = require('path');
 const pngToIco = require('png-to-ico');
 const svg2png = require('svg2png');
+const SVGO = require('svgo');
 
 const manifest = require('../assets/manifest.json');
+const svgo = new SVGO();
 
 const extensions = {
   ico: '.ico',
   png: '.png',
   svg: '.svg'
 };
+const minifiedExtensionPrefix = '.min';
 
 function build(callback) {
   async.series([
     async.apply(convertAllSvgToPng, manifest.assets.svg2png),
-    async.apply(convertAllPngToIco, manifest.assets.png2ico)
+    async.apply(convertAllPngToIco, manifest.assets.png2ico),
+    async.apply(optimizeAllSvg)
   ], callback);
 }
 
@@ -34,7 +38,7 @@ function convertAllPngToIco(assets, callback) {
 function convertAllPngToIcoForSize(asset, size, callback) {
   async.waterfall([
     async.apply(glob, `assets/${asset}/**/*-${size}${extensions.png}`),
-    (filePaths, next) => async.eachSeries(filePaths, async.apply(convertPngToIcoForFile, asset, size), next)
+    (filePaths, next) => async.each(filePaths, async.apply(convertPngToIcoForFile, asset, size), next)
   ], callback);
 }
 
@@ -43,7 +47,7 @@ function convertAllSvgToPng(assets, callback) {
     console.log(`Converting ${asset} SVG assets to PNG...`);
 
     async.waterfall([
-      async.apply(glob, `assets/${asset}/**/*${extensions.svg}`),
+      async.apply(glob, `assets/${asset}/**/*${extensions.svg}`, { ignore: '**/*.min.svg' }),
       (filePaths, _next) => async.eachSeries(filePaths, async.apply(convertSvgToPngForFile, asset, sizes), _next)
     ], next);
   }, callback);
@@ -89,6 +93,37 @@ function convertSvgToPngForFile(asset, sizes, filePath, callback) {
   async.series([
     async.asyncify(() => del([ `${directory}/${baseName}-*${extensions.png}` ])),
     (next) => async.each(sizes, async.apply(convertSvgToPng, asset, filePath, baseName, directory), next)
+  ], callback);
+}
+
+function optimizeAllSvg(callback) {
+  console.log(`Creating optimized SVG assets...`);
+
+  async.waterfall([
+    async.asyncify(() => del([ `assets/**/*${minifiedExtensionPrefix}${extensions.svg}` ])),
+    async.apply(glob, `assets/**/*${extensions.svg}`),
+    (filePaths, next) => async.each(filePaths, async.apply(optimizeSvg), next)
+  ], callback);
+}
+
+function optimizeSvg(filePath, callback) {
+  const baseName = path.basename(filePath, extensions.svg);
+  const directory = path.dirname(filePath);
+
+  console.log(`Optimizing ${directory} SVG asset...`);
+
+  async.waterfall([
+    async.apply(fs.readFile, filePath, 'utf8'),
+    (input, next) => {
+      svgo.optimize(input, (result) => {
+        if (result.error) {
+          next(result.error);
+        } else {
+          next(null, result.data);
+        }
+      })
+    },
+    async.apply(fs.writeFile, `${directory}/${baseName}${minifiedExtensionPrefix}${extensions.svg}`)
   ], callback);
 }
 

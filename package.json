@@ -26,7 +26,8 @@
     "del": "^2.2.2",
     "glob": "^7.1.1",
     "png-to-ico": "^1.0.2",
-    "svg2png": "^4.1.1"
+    "svg2png": "^4.1.1",
+    "svgo": "^0.7.2"
   },
   "scripts": {
     "start": "node scripts/build"
