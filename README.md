@@ -16,4 +16,4 @@ This repository contains branding assets and guidelines for [!ninja](https://not
 
 TODO: Document generating assets using script
 
-[![Copyright !ninja](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright.svg)](https://not.ninja)
+[![Copyright !ninja]((https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-744x100.png)](https://not.ninja)

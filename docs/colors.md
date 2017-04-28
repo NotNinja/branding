@@ -15,4 +15,4 @@ TODO: Introduction to palette
 | Primary | TODO | TODO | TODO |
 | Secondary | TODO | TODO | TODO |
 
-[![Copyright !ninja](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright.svg)](https://not.ninja)
+[![Copyright !ninja]((https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-744x100.png)](https://not.ninja)

@@ -86,4 +86,4 @@ TODO: Introduction to social images and their usage
 The [background image](https://www.pexels.com/photo/bamboo-plant-129916/) for the social images was taken by the Erol
 Ahmed and sourced from [Pexels](https://www.pexels.com) under the Creative Commons Zero (CC0) license.
 
-[![Copyright !ninja](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright.svg)](https://not.ninja)
+[![Copyright !ninja]((https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-744x100.png)](https://not.ninja)
