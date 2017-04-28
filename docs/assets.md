@@ -15,6 +15,8 @@ TODO: Introduction to banners and their usage
 | ----- | ---------- | ------ | ----- |
 | Base | 354x100 | image/svg+xml | [![not-ninja-banner.svg](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner.svg)](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner.svg) |
 | Base | 354x100 | image/png | [![not-ninja-banner-354x100.png](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner-354x100.png)](https://rawgit.com/NotNinja/branding/master/assets/banner/base/not-ninja-banner-354x100.png) |
+| Invert | 354x100 | image/svg+xml | [![not-ninja-banner-invert.svg](https://rawgit.com/NotNinja/branding/master/assets/banner/invert/not-ninja-banner-invert.svg)](https://rawgit.com/NotNinja/branding/master/assets/banner/invert/not-ninja-banner-invert.svg) |
+| Invert | 354x100 | image/png | [![not-ninja-banner-invert-354x100.png](https://rawgit.com/NotNinja/branding/master/assets/banner/invert/not-ninja-banner-invert-354x100.png)](https://rawgit.com/NotNinja/branding/master/assets/banner/invert/not-ninja-banner-invert-354x100.png) |
 
 ## Copyright
 
