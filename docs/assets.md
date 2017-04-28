@@ -23,6 +23,7 @@ TODO: Introduction to copyright images and their usage
 | Class | Dimensions | Format | Image |
 | ----- | ---------- | ------ | ----- |
 | Base | 744x100 | image/svg+xml | [![not-ninja-copyright.svg](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright.svg)](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright.svg) |
+| Base | 372x50 | image/png | [![not-ninja-copyright-372x50.png](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-372x50.png)](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-372x50.png) |
 | Base | 744x100 | image/png | [![not-ninja-copyright-744x100.png](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-744x100.png)](https://rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-744x100.png) |
 
 ## Logos
