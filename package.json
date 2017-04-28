@@ -1,5 +1,5 @@
 {
-  "name": "not-ninja-branding",
+  "name": "@notninja/branding",
   "version": "0.1.0",
   "description": "Branding assets and guidelines for !ninja",
   "homepage": "https://github.com/NotNinja/branding",
@@ -22,12 +22,14 @@
     "url": "https://github.com/NotNinja/branding.git"
   },
   "devDependencies": {
+    "async": "^2.3.0",
     "del": "^2.2.2",
     "glob": "^7.1.1",
+    "png-to-ico": "^1.0.2",
     "svg2png": "^4.1.1"
   },
   "scripts": {
-    "build": "node scripts/build"
+    "start": "node scripts/build"
   },
   "engines": {
     "node": ">=6"

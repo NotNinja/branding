@@ -1,46 +1,101 @@
-'use strict'
+'use strict';
 
-const del = require('del').sync;
+const async = require('async');
+const del = require('del');
 const fs = require('fs');
-const glob = require('glob').sync;
+const glob = require('glob');
 const path = require('path');
-const svg2png = require('svg2png').sync;
+const pngToIco = require('png-to-ico');
+const svg2png = require('svg2png');
 
-const assets = require('../assets/manifest.json').assets;
+const manifest = require('../assets/manifest.json');
 
-const pngExtension = '.png';
-const svgExtension = '.svg';
+const extensions = {
+  ico: '.ico',
+  png: '.png',
+  svg: '.svg'
+};
 
-function clean(asset, filePath, baseName, directory) {
-  console.log(`Cleaning ${asset} assets under directory: ${directory}`);
-
-  del([ `${directory}/${baseName}-*${pngExtension}` ]);
+function build(callback) {
+  async.series([
+    async.apply(convertAllSvgToPng, manifest.assets.svg2png),
+    async.apply(convertAllPngToIco, manifest.assets.png2ico)
+  ], callback);
 }
 
-function generate(asset, filePath, baseName, directory, size) {
-  console.log(`Generating ${asset} asset of size ${size} under directory: ${directory}`);
+function convertAllPngToIco(assets, callback) {
+  async.eachOfSeries(assets, (sizes, asset, next) => {
+    console.log(`Converting ${asset} PNG assets to ICO...`);
 
-  let dimensions = size.split('x');
-  let input = fs.readFileSync(filePath);
-  let output = svg2png(input, { width: dimensions[0], height: dimensions[1] });
-
-  fs.writeFileSync(`${directory}/${baseName}-${size}${pngExtension}`, output);
+    async.eachSeries(sizes, async.apply(convertAllPngToIcoForSize, asset), next);
+  }, callback);
 }
 
-for (let asset of Object.keys(assets)) {
-  console.log(`Building ${asset} assets...`);
+function convertAllPngToIcoForSize(asset, size, callback) {
+  async.waterfall([
+    async.apply(glob, `assets/${asset}/**/*-${size}${extensions.png}`),
+    (filePaths, next) => async.eachSeries(filePaths, async.apply(convertPngToIcoForFile, asset, size), next)
+  ], callback);
+}
 
-  let filePaths = glob(`assets/${asset}/**/*${svgExtension}`);
-  let sizes = assets[asset];
+function convertAllSvgToPng(assets, callback) {
+  async.eachOfSeries(assets, (sizes, asset, next) => {
+    console.log(`Converting ${asset} SVG assets to PNG...`);
 
-  for (let filePath of filePaths) {
-    let baseName = path.basename(filePath, svgExtension);
-    let directory = path.dirname(filePath);
+    async.waterfall([
+      async.apply(glob, `assets/${asset}/**/*${extensions.svg}`),
+      (filePaths, _next) => async.eachSeries(filePaths, async.apply(convertSvgToPngForFile, asset, sizes), _next)
+    ], next);
+  }, callback);
+}
 
-    clean(asset, filePath, baseName, directory);
+function convertPngToIco(asset, filePath, baseName, directory, size, callback) {
+  console.log(`Converting ${directory} PNG asset of size ${size} to ICO...`);
 
-    for (let size of sizes) {
-      generate(asset, filePath, baseName, directory, size);
-    }
+  async.waterfall([
+    async.apply(fs.readFile, filePath),
+    async.asyncify((input) => pngToIco(input)),
+    async.apply(fs.writeFile, `${directory}/${baseName}${extensions.ico}`)
+  ], callback);
+}
+
+function convertPngToIcoForFile(asset, size, filePath, callback) {
+  let baseName = path.basename(filePath, extensions.png);
+  baseName = baseName.substring(0, baseName.indexOf(`-${size}`));
+  const directory = path.dirname(filePath);
+
+  async.series([
+    async.asyncify(() => del([ `${directory}/${baseName}${extensions.ico}` ])),
+    async.apply(convertPngToIco, asset, filePath, baseName, directory, size)
+  ], callback);
+}
+
+function convertSvgToPng(asset, filePath, baseName, directory, size, callback) {
+  console.log(`Converting ${directory} SVG asset of size ${size} to PNG...`);
+
+  const dimensions = size.split('x');
+
+  async.waterfall([
+    async.apply(fs.readFile, filePath),
+    async.asyncify((input) => svg2png(input, { width: dimensions[0], height: dimensions[1] })),
+    async.apply(fs.writeFile, `${directory}/${baseName}-${size}${extensions.png}`)
+  ], callback);
+}
+
+function convertSvgToPngForFile(asset, sizes, filePath, callback) {
+  const baseName = path.basename(filePath, extensions.svg);
+  const directory = path.dirname(filePath);
+
+  async.series([
+    async.asyncify(() => del([ `${directory}/${baseName}-*${extensions.png}` ])),
+    (next) => async.each(sizes, async.apply(convertSvgToPng, asset, filePath, baseName, directory), next)
+  ], callback);
+}
+
+build((error) => {
+  if (error) {
+    throw error;
+  } else {
+    console.log('Done!');
   }
-}
+});
