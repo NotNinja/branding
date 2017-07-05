@@ -23,9 +23,9 @@
     "url": "https://github.com/NotNinja/branding.git"
   },
   "devDependencies": {
-    "async": "^2.3.0",
-    "del": "^2.2.2",
-    "glob": "^7.1.1",
+    "async": "^2.5.0",
+    "del": "^3.0.0",
+    "glob": "^7.1.2",
     "png-to-ico": "^1.0.2",
     "svg2png": "^4.1.1",
     "svgo": "^0.7.2"
