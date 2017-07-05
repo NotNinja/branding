@@ -1,6 +1,7 @@
 # Assets
 
-TODO: Introduction to assets
+This document contains references to all assets that are available to be used to represent the !ninja brand across all
+spaces.
 
 1. [Banners](#banners)
 2. [Copyright](#copyright)
@@ -9,7 +10,11 @@ TODO: Introduction to assets
 
 ## Banners
 
-TODO: Introduction to banners and their usage
+The banner assets are the best way of getting our brand across. It contains the fully organization name in our unique
+bespoke font as well as our recognizable ninja icon hidden away inside of it.
+
+These banners can be used everywhere, from website headers to letterheads to stickers and promotional material. Just
+ensure that you choose the version that shows best on the background of the target document.
 
 | Class | Dimensions | Format | Image |
 | ----- | ---------- | ------ | ----- |
@@ -24,7 +29,11 @@ TODO: Introduction to banners and their usage
 
 ## Copyright
 
-TODO: Introduction to copyright images and their usage
+The copyright assets are very similar to the banner except that it also contains a copyright symbol and the current
+year, also in our unique bespoke font.
+
+These copyright notices are intended for use on project pages (e.g. GitHub). It is recommended that pure text copyright
+notices are used on all !ninja websites, web-based applications, and printed material instead.
 
 | Class | Dimensions | Format | Image |
 | ----- | ---------- | ------ | ----- |
@@ -47,7 +56,14 @@ TODO: Introduction to copyright images and their usage
 
 ## Logos
 
-TODO: Introduction to logos and their usage
+The logo assets are a great way of getting our brand across. The full logo contains an (extremely) abbreviated name for
+our organization, !N, in our unique bespoke font as well as our recognizable ninja icon hidden away inside of it. It's
+basically just the first 2 characters of our banner assets. Alternatively, the minimal logo can be used for immediate
+impact as it consists entirely of our little ninja.
+
+These logos are ideal for many cases but should be used when the full organization name is included in at least one
+other location on the same document. We should not rely on brand recognition solely on our logos. That said; they can be
+used absolutely anywhere that the banner could be used. The minimal logo is especially suited for icons and stickers.
 
 | Class | Dimensions | Format | Image |
 | ----- | ---------- | ------ | ----- |
@@ -254,7 +270,10 @@ TODO: Introduction to logos and their usage
 
 ## Social
 
-TODO: Introduction to social images and their usage
+The social assets are simply those used to decorate profile pages across various social media platforms. They are all
+variations of the same theme to provided consistency.
+
+These images are only intended to be used on their respective platforms.
 
 | Class | Dimensions | Format | Image |
 | ----- | ---------- | ------ | ----- |

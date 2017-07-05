@@ -1,12 +1,12 @@
 # Colors
 
-TODO: Introduction to colors
+This document contains the colors that are to be used when representing the !ninja brand.
 
 1. [Palette](#palette)
 
 ## Palette
 
-TODO: Introduction to palette
+The following colors are recommended to be used:
 
 | Color | Hex | RGB | CMYK |
 | ----- | --- | --- | ---- |
