@@ -22,19 +22,14 @@
     "type": "git",
     "url": "https://github.com/NotNinja/branding.git"
   },
-  "devDependencies": {
-    "async": "^2.5.0",
-    "del": "^3.0.0",
-    "glob": "^7.1.2",
-    "png-to-ico": "^1.0.2",
-    "svg2png": "^4.1.1",
-    "svgo": "^0.7.2"
+  "dependencies": {
+    "brander": "^0.1.1"
   },
   "scripts": {
-    "start": "node scripts/build"
+    "start": "brander"
   },
   "engines": {
-    "node": ">=6"
+    "node": ">=8"
   },
   "private": true
 }

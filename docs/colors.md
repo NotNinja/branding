@@ -2,7 +2,7 @@
 
 This document contains the colors that are to be used when representing the !ninja brand.
 
-1. [Palette](#palette)
+1. [Palette](https://github.com/NotNinja/branding/tree/master/docs%2Fcolors.md#palette)
 
 ## Palette
 
@@ -17,4 +17,4 @@ The following colors are recommended to be used:
 
 ---
 
-[![Copyright !ninja](https://cdn.rawgit.com/NotNinja/branding/master/assets/copyright/base/not-ninja-copyright-186x25.png)](https://not.ninja)
+[![Copyright !ninja](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fcopyright%2Fbase%2Fnot-ninja-copyright-186x25.png)](https://not.ninja)
