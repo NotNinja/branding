@@ -166,7 +166,9 @@
             "not-ninja-banner.svg": "Base",
             "not-ninja-banner-fill.svg": "Base, Fill",
             "not-ninja-banner-invert.svg": "Base, Invert",
-            "not-ninja-banner-invert-fill.svg": "Base, Invert, Fill"
+            "not-ninja-banner-invert-fill.svg": "Base, Invert, Fill",
+            "not-ninja-banner-pride.svg": "Pride",
+            "not-ninja-banner-pride-fill.svg": "Pride, Fill"
           }
         },
         {
@@ -213,7 +215,9 @@
             "not-ninja-logo-min.svg": "Minimal",
             "not-ninja-logo-min-fill.svg": "Minimal, Fill",
             "not-ninja-logo-min-invert.svg": "Minimal, Invert",
-            "not-ninja-logo-min-invert-fill.svg": "Minimal, Invert, Fill"
+            "not-ninja-logo-min-invert-fill.svg": "Minimal, Invert, Fill",
+            "not-ninja-logo-pride.svg": "Pride",
+            "not-ninja-logo-pride-fill.svg": "Pride, Fill"
           }
         },
         {
