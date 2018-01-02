@@ -17,4 +17,4 @@ The following colors are recommended to be used:
 
 ---
 
-[![Copyright !ninja](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fcopyright%2Fbase%2Fnot-ninja-copyright-186x25.png)](https://not.ninja)
+[![Copyright !ninja](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fcopyright%2Fbase%2Fnot-ninja-copyright-372x50.png)](https://not.ninja)

@@ -349,7 +349,7 @@
     "docs": {
       "footer": {
         "type": "template",
-        "content": "---\n\n[![Copyright <%= config.title %>](<%= config.assetURL([ config.assetsDir, 'copyright/base/not-ninja-copyright-186x25.png' ]) %>)](<%= config.homepage %>)"
+        "content": "---\n\n[![Copyright <%= config.title %>](<%= config.assetURL([ config.assetsDir, 'copyright/base/not-ninja-copyright-372x50.png' ]) %>)](<%= config.homepage %>)"
       }
     }
   }
