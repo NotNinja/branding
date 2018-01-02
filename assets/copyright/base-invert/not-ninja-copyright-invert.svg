@@ -18,9 +18,16 @@
       <path d="M 0 27 V 7 C 0 7, 0 2, 5 2 H 63 C 63 2, 68 2, 68 7 V 50 C 68 50, 68 60, 58 60 H 25 C 25 60, 20 60, 20 65 V 73 C 20 73, 20 78, 25 78 H 43 C 43 78, 48 78, 48 73 C 48 73, 48 68, 53 68 H 63 C 63 68, 68 68, 68 73 V 93 C 68 93, 68 98, 63 98 H 5 C 5 98, 0 98, 0 93 V 50 C 0 50, 0 40, 10 40 H 43 C 43 40, 48 40, 48 35 V 27 C 48 27, 48 22, 43 22 H 25 C 25 22, 20 22, 20 27 C 20 27, 20 32, 15 32 H 5 C 5 32, 0 32, 0 27 Z" fill="white" stroke="none" />
     </symbol>
 
-    <symbol id="7-char" viewBox="0 0 68 100">
-      <path d="M 0 27 V 7 C 0 7, 0 2, 5 2 H 63 C 63 2, 68 2, 65.5 7 L 22.5 93 C 22.5 93, 20 98, 15 98 H 5 C 5 98, 0 98, 3 93 L 35.5 27 C 35.5 27, 39 22, 34 22 H 25 C 25 22, 20 22, 20 27 C 20 27, 20 32, 15 32 H 5 C 5 32, 0 32, 0 27 Z" fill="white" stroke="none" />
+    <symbol id="8-char" viewBox="0 0 68 100">
+      <rect x="0" y="0" width="68" height="100" fill="white" stroke="none" mask="url(#8-mask)" />
     </symbol>
+
+    <mask id="8-mask" maskUnits="userSpaceOnUse" x="0" y="0" width="68" height="100">
+      <rect x="0" y="2" rx="5" ry="5" width="68" height="48" fill="white" stroke="none" />
+      <rect x="0" y="50" rx="5" ry="5" width="68" height="48" fill="white" stroke="none" />
+      <rect x="20" y="22" rx="5" ry="5" width="28" height="18" fill="black" stroke="none" />
+      <rect x="20" y="60" rx="5" ry="5" width="28" height="18" fill="black" stroke="none" />
+    </mask>
 
     <symbol id="copyright-char" viewBox="0 0 68 100">
       <rect x="0" y="0" width="68" height="100" fill="white" stroke="none" mask="url(#copyright-mask)" />
@@ -72,7 +79,7 @@
   <use xlink:href="#2-char" x="2" y="0" width="68" height="100" />
   <use xlink:href="#0-char" x="78" y="0" width="68" height="100" />
   <use xlink:href="#1-char" x="154" y="0" width="30" height="100" />
-  <use xlink:href="#7-char" x="192" y="0" width="68" height="100" />
+  <use xlink:href="#8-char" x="192" y="0" width="68" height="100" />
 
   <use xlink:href="#copyright-char" x="292" y="0" width="68" height="100" />
 
