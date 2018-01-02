@@ -15,8 +15,7 @@
     </symbol>
 
     <symbol id="8-char" viewBox="0 0 68 100">
-      <rect x="0" y="2" rx="5" ry="5" width="68" height="48" fill="white" stroke="none" />
-      <rect x="0" y="50" rx="5" ry="5" width="68" height="48" fill="white" stroke="none" />
+      <path d="M 0 7 V 45 C 0 45, 0 50, 5 50 C 5 50, 0 50, 0 55 V 93 C 0 93, 0 98, 5 98 H 63 C 63 98, 68 98, 68 93 V 55 C 68 55, 68 50, 63 50 C 63 50, 68 50, 68 45 V 7 C 68 7, 68 2, 63 2 H 5 C 5 2, 0 2, 0 7 Z" fill="white" stroke="none" />
       <rect x="20" y="22" rx="5" ry="5" width="28" height="18" fill="#4B0082" stroke="none" />
       <rect x="20" y="60" rx="5" ry="5" width="28" height="18" fill="#4B0082" stroke="none" />
     </symbol>
