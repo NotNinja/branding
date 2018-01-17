@@ -208,16 +208,16 @@
           ],
           "sortBy": [ "<%= files[0].file.type %>", "asc" ],
           "titles": {
-            "not-ninja-logo.svg": "Base",
-            "not-ninja-logo-fill.svg": "Base, Fill",
-            "not-ninja-logo-invert.svg": "Base, Invert",
-            "not-ninja-logo-invert-fill.svg": "Base, Invert, Fill",
             "not-ninja-logo-min.svg": "Minimal",
             "not-ninja-logo-min-fill.svg": "Minimal, Fill",
             "not-ninja-logo-min-invert.svg": "Minimal, Invert",
             "not-ninja-logo-min-invert-fill.svg": "Minimal, Invert, Fill",
             "not-ninja-logo-pride.svg": "Pride",
-            "not-ninja-logo-pride-fill.svg": "Pride, Fill"
+            "not-ninja-logo-pride-fill.svg": "Pride, Fill",
+            "not-ninja-logo-text.svg": "Text",
+            "not-ninja-logo-text-fill.svg": "Text, Fill",
+            "not-ninja-logo-text-invert.svg": "Text, Invert",
+            "not-ninja-logo-text-invert-fill.svg": "Text, Invert, Fill"
           }
         },
         {
