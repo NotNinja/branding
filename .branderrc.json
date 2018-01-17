@@ -195,7 +195,7 @@
         {
           "title": "Logos",
           "type": "template",
-          "content": "The logo assets are a great way of getting our brand across. The full logo contains an (extremely) abbreviated name for our organization, !N, in our unique bespoke font as well as our recognizable ninja icon hidden away inside of it. It's basically just the first 2 characters of our banner assets. Alternatively, the minimal logo can be used for immediate impact as it consists entirely of our little ninja.\n\nThese logos are ideal for many cases but should be used when the full organization name is included in at least one other location on the same document. We should not rely on brand recognition solely on our logos. That said; they can be used absolutely anywhere that the banner could be used. The minimal logo is especially suited for icons and stickers."
+          "content": "The logo assets are a great way of getting our brand across. The base logo is usually preferred as it has an immediate impact since it consists entirely of our little ninja. Alternatively, since the text logo contains an (extremely) abbreviated name for our organization, \"!N\", in our unique bespoke font as well as our recognizable ninja icon hidden away inside of it, it is a great substitution for a full banner when space is tight as it's basically just the first 2 characters of our banner assets.\n\nThese logos are ideal for many cases but should ideally only be used when the full organization name is included in at least one other location on the same document. We should not rely on brand recognition solely on our logos. That said; they can be used absolutely anywhere that the banner could be used. The base logo is especially suited for icons and stickers."
         },
         {
           "type": "asset-feature",
@@ -208,10 +208,10 @@
           ],
           "sortBy": [ "<%= files[0].file.type %>", "asc" ],
           "titles": {
-            "not-ninja-logo-min.svg": "Minimal",
-            "not-ninja-logo-min-fill.svg": "Minimal, Fill",
-            "not-ninja-logo-min-invert.svg": "Minimal, Invert",
-            "not-ninja-logo-min-invert-fill.svg": "Minimal, Invert, Fill",
+            "not-ninja-logo.svg": "Base",
+            "not-ninja-logo-fill.svg": "Base, Fill",
+            "not-ninja-logo-invert.svg": "Base, Invert",
+            "not-ninja-logo-invert-fill.svg": "Base, Invert, Fill",
             "not-ninja-logo-pride.svg": "Pride",
             "not-ninja-logo-pride-fill.svg": "Pride, Fill",
             "not-ninja-logo-text.svg": "Text",
