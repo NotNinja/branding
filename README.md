@@ -17,7 +17,8 @@ This repository contains branding assets and guidelines for [!ninja](https://not
     1. [Banners](https://github.com/NotNinja/branding/tree/master/docs%2Fassets.md#banners)
     2. [Copyright](https://github.com/NotNinja/branding/tree/master/docs%2Fassets.md#copyright)
     3. [Logos](https://github.com/NotNinja/branding/tree/master/docs%2Fassets.md#logos)
-    4. [Social](https://github.com/NotNinja/branding/tree/master/docs%2Fassets.md#social)
+    4. [Tiles](https://github.com/NotNinja/branding/tree/master/docs%2Fassets.md#tiles)
+    5. [Social](https://github.com/NotNinja/branding/tree/master/docs%2Fassets.md#social)
 
 ## Using Assets
 

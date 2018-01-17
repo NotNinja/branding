@@ -8,9 +8,9 @@
       "task": "clean",
       "input": {
         "files": [
-          "logo/**/*.ico",
-          "@(banner|copyright|logo)/**/*.min.svg",
-          "@(banner|copyright|logo)/**/*.png"
+          "@(logo|tile)/**/*.ico",
+          "@(banner|copyright|logo|tile)/**/*.min.svg",
+          "@(banner|copyright|logo|tile)/**/*.png"
         ]
       }
     },
@@ -47,7 +47,7 @@
     {
       "task": "convert",
       "input": {
-        "files": "logo/**/*.svg"
+        "files": "@(logo|tile)/**/*.svg"
       },
       "output": {
         "format": "png"
@@ -83,7 +83,7 @@
     {
       "task": "package",
       "input": {
-        "files": "logo/**/*-256x256.png"
+        "files": "@(logo|tile)/**/*-256x256.png"
       },
       "output": {
         "files": "<%= file.base(true).replace('-256x256', '') %>.ico"
@@ -101,7 +101,7 @@
     {
       "task": "optimize",
       "input": {
-        "files": "@(banner|copyright|logo)/**/*.svg"
+        "files": "@(banner|copyright|logo|tile)/**/*.svg"
       }
     }
   ],
@@ -218,6 +218,29 @@
             "not-ninja-logo-text-fill.svg": "Text, Fill",
             "not-ninja-logo-text-invert.svg": "Text, Invert",
             "not-ninja-logo-text-invert-fill.svg": "Text, Invert, Fill"
+          }
+        },
+        {
+          "title": "Tiles",
+          "type": "template",
+          "content": "The tile assets share an almost identical usage to the logo assets, with the main difference being that they all fill a square, fitting with the concept of a tile. They are ideal for situations where transparency is not supported or may cause problems or rounded corners simply don't suit the use case. Logos are always preferred but tiles offer a useful alternative."
+        },
+        {
+          "type": "asset-feature",
+          "dir": "tile/**/*/",
+          "preview": "!(*.min).svg",
+          "files": [
+            "*.ico",
+            "*.png",
+            [ "!(*.min).svg", "*.min.svg" ]
+          ],
+          "sortBy": [ "<%= files[0].file.type %>", "asc" ],
+          "titles": {
+            "not-ninja-tile.svg": "Base",
+            "not-ninja-tile-invert.svg": "Base, Invert",
+            "not-ninja-tile-pride.svg": "Pride",
+            "not-ninja-tile-text.svg": "Text",
+            "not-ninja-tile-text-invert.svg": "Text, Invert"
           }
         },
         {
