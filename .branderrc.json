@@ -47,7 +47,7 @@
     {
       "task": "convert",
       "input": {
-        "files": "@(logo|tile)/**/*.svg"
+        "files": "@(logo|tile)/**/!(*-mask).svg"
       },
       "output": {
         "format": "png"
@@ -212,6 +212,7 @@
             "not-ninja-logo-fill.svg": "Base, Fill",
             "not-ninja-logo-invert.svg": "Base, Invert",
             "not-ninja-logo-invert-fill.svg": "Base, Invert, Fill",
+            "not-ninja-logo-mask.svg": "Base, Mask",
             "not-ninja-logo-pride.svg": "Pride",
             "not-ninja-logo-pride-fill.svg": "Pride, Fill",
             "not-ninja-logo-pride-invert.svg": "Pride, Invert",
@@ -219,7 +220,8 @@
             "not-ninja-logo-text.svg": "Text",
             "not-ninja-logo-text-fill.svg": "Text, Fill",
             "not-ninja-logo-text-invert.svg": "Text, Invert",
-            "not-ninja-logo-text-invert-fill.svg": "Text, Invert, Fill"
+            "not-ninja-logo-text-invert-fill.svg": "Text, Invert, Fill",
+            "not-ninja-logo-text-mask.svg": "Text, Mask"
           }
         },
         {

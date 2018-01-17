@@ -156,6 +156,14 @@ These logos are ideal for many cases but should ideally only be used when the fu
 | image/svg+xml | [100x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-invert-fill%2Fnot-ninja-logo-invert-fill.svg) | [not-ninja-logo-invert-fill.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-invert-fill%2Fnot-ninja-logo-invert-fill.min.svg) |
 | image/x-icon | [16x16+32x32+48x48+256x256](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-invert-fill%2Fnot-ninja-logo-invert-fill.ico) |  |
 
+### Base, Mask
+
+[![not-ninja-logo-mask.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-mask%2Fnot-ninja-logo-mask.svg)](https://github.com/NotNinja/branding/tree/master/assets%2Flogo%2Fbase-mask)
+
+| Type | Sizes | Optimized |
+| ---- | ----- | --------- |
+| image/svg+xml | [100x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-mask%2Fnot-ninja-logo-mask.svg) | [not-ninja-logo-mask.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-mask%2Fnot-ninja-logo-mask.min.svg) |
+
 ### Pride
 
 [![not-ninja-logo-pride.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fpride%2Fnot-ninja-logo-pride.svg)](https://github.com/NotNinja/branding/tree/master/assets%2Flogo%2Fpride)
@@ -235,6 +243,14 @@ These logos are ideal for many cases but should ideally only be used when the fu
 | image/png | [16x16](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-16x16.png) [32x32](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-32x32.png) [36x36](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-36x36.png) [48x48](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-48x48.png) [64x64](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-64x64.png) [70x70](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-70x70.png) [72x72](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-72x72.png) [76x76](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-76x76.png) [96x96](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-96x96.png) [120x120](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-120x120.png) [144x144](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-144x144.png) [150x150](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-150x150.png) [152x152](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-152x152.png) [167x167](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-167x167.png) [168x168](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-168x168.png) [180x180](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-180x180.png) [192x192](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-192x192.png) [250x250](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-250x250.png) [256x256](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-256x256.png) [300x300](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-300x300.png) [310x310](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-310x310.png) [512x512](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-512x512.png) [2800x2800](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill-2800x2800.png) |  |
 | image/svg+xml | [100x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill.svg) | [not-ninja-logo-text-invert-fill.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill.min.svg) |
 | image/x-icon | [16x16+32x32+48x48+256x256](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-invert-fill%2Fnot-ninja-logo-text-invert-fill.ico) |  |
+
+### Text, Mask
+
+[![not-ninja-logo-text-mask.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-mask%2Fnot-ninja-logo-text-mask.svg)](https://github.com/NotNinja/branding/tree/master/assets%2Flogo%2Ftext-mask)
+
+| Type | Sizes | Optimized |
+| ---- | ----- | --------- |
+| image/svg+xml | [100x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-mask%2Fnot-ninja-logo-text-mask.svg) | [not-ninja-logo-text-mask.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-mask%2Fnot-ninja-logo-text-mask.min.svg) |
 
 ## Tiles
 
