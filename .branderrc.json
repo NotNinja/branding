@@ -214,6 +214,8 @@
             "not-ninja-logo-invert-fill.svg": "Base, Invert, Fill",
             "not-ninja-logo-pride.svg": "Pride",
             "not-ninja-logo-pride-fill.svg": "Pride, Fill",
+            "not-ninja-logo-pride-invert.svg": "Pride, Invert",
+            "not-ninja-logo-pride-invert-fill.svg": "Pride, Invert, Fill",
             "not-ninja-logo-text.svg": "Text",
             "not-ninja-logo-text-fill.svg": "Text, Fill",
             "not-ninja-logo-text-invert.svg": "Text, Invert",
@@ -239,6 +241,7 @@
             "not-ninja-tile.svg": "Base",
             "not-ninja-tile-invert.svg": "Base, Invert",
             "not-ninja-tile-pride.svg": "Pride",
+            "not-ninja-tile-pride-invert.svg": "Pride, Invert",
             "not-ninja-tile-text.svg": "Text",
             "not-ninja-tile-text-invert.svg": "Text, Invert"
           }
