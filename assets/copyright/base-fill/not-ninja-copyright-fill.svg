@@ -1,77 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 744 100">
   <defs>
-    <symbol id="0-char" viewBox="0 0 68 100">
-      <rect x="0" y="2" rx="5" ry="5" width="68" height="96" fill="#4B0082" stroke="none" />
-      <rect x="20" y="22" rx="5" ry="5" width="28" height="56" fill="white" stroke="none" />
-    </symbol>
-
-    <symbol id="1-char" viewBox="0 0 30 100">
-      <path d="M 0 17 V 7 C 0 7, 0 2, 5 2 H 25 C 25 2, 30 2, 30 7 V 93 C 30 93, 30 98, 25 98 H 15 C 15 98, 10 98, 10 93 V 27 C 10 27, 10 22, 5 22 C 5 22, 0 22, 0 17 Z" fill="#4B0082" stroke="none" />
-    </symbol>
-
-    <symbol id="2-char" viewBox="0 0 68 100">
-      <path d="M 0 27 V 7 C 0 7, 0 2, 5 2 H 63 C 63 2, 68 2, 68 7 V 50 C 68 50, 68 60, 58 60 H 25 C 25 60, 20 60, 20 65 V 73 C 20 73, 20 78, 25 78 H 43 C 43 78, 48 78, 48 73 C 48 73, 48 68, 53 68 H 63 C 63 68, 68 68, 68 73 V 93 C 68 93, 68 98, 63 98 H 5 C 5 98, 0 98, 0 93 V 50 C 0 50, 0 40, 10 40 H 43 C 43 40, 48 40, 48 35 V 27 C 48 27, 48 22, 43 22 H 25 C 25 22, 20 22, 20 27 C 20 27, 20 32, 15 32 H 5 C 5 32, 0 32, 0 27 Z" fill="#4B0082" stroke="none" />
-    </symbol>
-
-    <symbol id="8-char" viewBox="0 0 68 100">
-      <path d="M 0 7 V 45 C 0 45, 0 50, 5 50 C 5 50, 0 50, 0 55 V 93 C 0 93, 0 98, 5 98 H 63 C 63 98, 68 98, 68 93 V 55 C 68 55, 68 50, 63 50 C 63 50, 68 50, 68 45 V 7 C 68 7, 68 2, 63 2 H 5 C 5 2, 0 2, 0 7 Z" fill="#4B0082" stroke="none" />
-      <rect x="20" y="22" rx="5" ry="5" width="28" height="18" fill="white" stroke="none" />
-      <rect x="20" y="60" rx="5" ry="5" width="28" height="18" fill="white" stroke="none" />
-    </symbol>
-
     <symbol id="copyright" viewBox="0 0 744 100">
-      <use xlink:href="#2-char" x="2" y="0" width="68" height="100" />
-      <use xlink:href="#0-char" x="78" y="0" width="68" height="100" />
-      <use xlink:href="#1-char" x="154" y="0" width="30" height="100" />
-      <use xlink:href="#8-char" x="192" y="0" width="68" height="100" />
+      <use xlink:href="#digit-two" x="2" y="0" width="68" height="100" />
+      <use xlink:href="#digit-zero" x="78" y="0" width="68" height="100" />
+      <use xlink:href="#digit-one" x="154" y="0" width="30" height="100" />
+      <use xlink:href="#digit-eight" x="192" y="0" width="68" height="100" />
 
-      <use xlink:href="#copyright-char" x="292" y="0" width="68" height="100" />
+      <use xlink:href="#copyright-sign" x="292" y="0" width="68" height="100" />
 
-      <use xlink:href="#exclamation-char" x="392" y="0" width="20" height="100" />
-      <use xlink:href="#n-char" x="420" y="0" width="68" height="100" />
-      <use xlink:href="#i-char" x="496" y="0" width="20" height="100" />
-      <use xlink:href="#n-char" x="524" y="0" width="68" height="100" />
-      <use xlink:href="#j-char" x="600" y="0" width="68" height="100" />
-      <use xlink:href="#a-char" x="676" y="0" width="68" height="100" />
+      <use xlink:href="#exclamation-mark" x="392" y="0" width="20" height="100" />
+      <use xlink:href="#latin-capital-letter-n" x="420" y="0" width="68" height="100" />
+      <use xlink:href="#latin-capital-letter-i" x="496" y="0" width="20" height="100" />
+      <use xlink:href="#latin-capital-letter-n" x="524" y="0" width="68" height="100" />
+      <use xlink:href="#latin-capital-letter-j" x="600" y="0" width="68" height="100" />
+      <use xlink:href="#latin-capital-letter-a" x="676" y="0" width="68" height="100" />
     </symbol>
 
-    <symbol id="copyright-char" viewBox="0 0 68 100">
-      <rect x="0" y="2" rx="5" ry="5" width="68" height="96" fill="#4B0082" stroke="none" />
-      <rect x="10" y="12" rx="2.5" ry="2.5" width="48" height="76" fill="white" stroke="none" />
-      <use xlink:href="#c-char" x="15" y="12" width="38" height="76" />
+    <symbol id="copyright-sign" viewBox="0 0 68 100">
+      <rect x="1" y="3" rx="5" ry="5" width="66" height="94" fill="white" stroke="none" />
+      <path d="M 0 93 v -86 a 5 5 0 0 1 5 -5 h 58 a 5 5 0 0 1 5 5 v 86 a 5 5 0 0 1 -5 5 h -30 v -10 h 20 a 5 5 0 0 0 5 -5 v -66 a 5 5 0 0 0 -5 -5 h -38 a 5 5 0 0 0 -5 5 v 66 a 5 5 0 0 0 5 5 h 20 v 10 h -30 a 5 5 0 0 1 -5 -5 Z" fill="#4B0082" stroke="none" />
+      <path d="M 15 80.5 v -61 a 2.5 2.5 0 0 1 2.5 -2.5 h 33 a 2.5 2.5 0 0 1 2.5 2.5 v 10 a 2.5 2.5 0 0 1 -2.5 2.5 h -5 a 2.5 2.5 0 0 1 -2.5 -2.5 a 2.5 2.5 0 0 0 -2.5 -2.5 h -13 a 2.5 2.5 0 0 0 -2.5 2.5 v 41 a 2.5 2.5 0 0 0 2.5 2.5 h 13 a 2.5 2.5 0 0 0 2.5 -2.5 a 2.5 2.5 0 0 1 2.5 -2.5 h 5 a 2.5 2.5 0 0 1 2.5 2.5 v 10 a 2.5 2.5 0 0 1 -2.5 2.5 h -33 a 2.5 2.5 0 0 1 -2.5 -2.5 Z" fill="#4B0082" stroke="none" />
     </symbol>
 
-    <symbol id="exclamation-char" viewBox="0 0 20 100">
+    <symbol id="digit-eight" viewBox="0 0 68 100">
+      <rect x="19" y="3" rx="5" ry="5" width="30" height="94" fill="white" stroke="none" />
+      <path d="M 0 93 v -38 a 5 5 0 0 1 5 -5 a 5 5 0 0 1 -5 -5 v -38 a 5 5 0 0 1 5 -5 h 30 v 20 h -10 a 5 5 0 0 0 -5 5 v 8 a 5 5 0 0 0 5 5 h 18 a 5 5 0 0 0 5 -5 v -8 a 5 5 0 0 0 -5 -5 h -10 v -20 h 30 a 5 5 0 0 1 5 5 v 38 a 5 5 0 0 1 -5 5 a 5 5 0 0 1 5 5 v 38 a 5 5 0 0 1 -5 5 h -30 v -20 h 10 a 5 5 0 0 0 5 -5 v -8 a 5 5 0 0 0 -5 -5 h -18 a 5 5 0 0 0 -5 5 v 8 a 5 5 0 0 0 5 5 h 10 v 20 h -30 a 5 5 0 0 1 -5 -5 Z" fill="#4B0082" stroke="none" />
+    </symbol>
+
+    <symbol id="digit-one" viewBox="0 0 30 100">
+      <path d="M 10 93 v -66 a 5 5 0 0 0 -5 -5 a 5 5 0 0 1 -5 -5 v -10 a 5 5 0 0 1 5 -5 h 20 a 5 5 0 0 1 5 5 v 86 a 5 5 0 0 1 -5 5 h -10 a 5 5 0 0 1 -5 -5 Z" fill="#4B0082" stroke="none" />
+    </symbol>
+
+    <symbol id="digit-two" viewBox="0 0 68 100">
+      <path d="M 0 93 V 50 A 10 10 0 0 1 10 40 H 43 A 5 5 0 0 0 48 35 V 27 A 5 5 0 0 0 43 22 H 25 A 5 5 0 0 0 20 27 A 5 5 0 0 1 15 32 H 5 A 5 5 0 0 1 0 27 V 7 A 5 5 0 0 1 5 2 H 63 A 5 5 0 0 1 68 7 V 50 A 10 10 0 0 1 58 60 H 25 A 5 5 0 0 0 20 65 V 73 A 5 5 0 0 0 25 78 H 63 A 5 5 0 0 1 68 83 V 93 A 5 5 0 0 1 63 98 H 5 A 5 5 0 0 1 0 93 Z" fill="#4B0082" stroke="none" />
+    </symbol>
+
+    <symbol id="digit-zero" viewBox="0 0 68 100">
+      <rect x="1" y="3" rx="5" ry="5" width="66" height="94" fill="white" stroke="none" />
+      <path d="M 0 93 v -86 a 5 5 0 0 1 5 -5 h 58 a 5 5 0 0 1 5 5 v 86 a 5 5 0 0 1 -5 5 h -30 v -20 h 10 a 5 5 0 0 0 5 -5 v -46 a 5 5 0 0 0 -5 -5 h -18 a 5 5 0 0 0 -5 5 v 46 a 5 5 0 0 0 5 5 h 10 v 20 h -30 a 5 5 0 0 1 -5 -5 Z" fill="#4B0082" stroke="none" />
+    </symbol>
+
+    <symbol id="exclamation-mark" viewBox="0 0 20 100">
+      <rect x="1" y="79" rx="5" ry="5" width="18" height="18" fill="white" stroke="none" />
       <rect x="0" y="2" rx="5" ry="5" width="20" height="70" fill="#4B0082" stroke="none" />
-      <use xlink:href="#ninja" x="0" y="78" width="20" height="20" />
+      <path d="M 0 93 v -10 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 1 5 5 v 10 a 5 5 0 0 1 -5 5 h -6 v -9 h 6 a 2 2 0 0 0 2 -2 v -1 a 2 2 0 0 0 -2 -2 h -10 a 2 2 0 0 0 -2 2 v 1 a 2 2 0 0 0 2 2 h 6 v 9 h -6 a 5 5 0 0 1 -5 -5 Z" fill="#4B0082" stroke="none" />
+      <rect x="6" y="85" rx="1" ry="1" width="2" height="3" fill="#4B0082" stroke="none" />
+      <rect x="12" y="85" rx="1" ry="1" width="2" height="3" fill="#4B0082" stroke="none" />
     </symbol>
 
-    <symbol id="a-char" viewBox="0 0 68 100">
-      <path d="M 0 93 V 7 C 0 7, 0 2, 5 2 H 15 C 15 2, 20 2, 22.5 7 L 65.5 93 C 65.5 93, 68 98, 63 98 H 53 C 53 98, 48 98, 45.5 93 L 22 46 C 22 46, 20 42, 20 46 V 93 C 20 93, 20 98, 15 98 H 5 C 5 98, 0 98, 0 93 Z" fill="#4B0082" stroke="none" />
+    <symbol id="latin-capital-letter-a" viewBox="0 0 68 100">
+      <path d="M 0 93 v -86 a 5 5 0 0 1 5 -5 h 10 c 0 0, 5 0, 7.5 5 l 43 86 c 0 0, 2.5 5, -2.5 5 h -10 c 0 0, -5 0, -7.5 -5 l -23.5 -47 c 0 0, -2 -4, -2 0 v 47 a 5 5 0 0 1 -5 5 h -10 a 5 5 0 0 1 -5 -5 Z" fill="#4B0082" stroke="none" />
     </symbol>
 
-    <symbol id="c-char" viewBox="0 0 68 100">
-      <path d="M 0 93 V 7 C 0 7, 0 2, 5 2 H 63 C 63 2, 68 2, 68 7 V 27 C 68 27, 68 32, 63 32 H 53 C 53 32, 48 32, 48 27 C 48 27, 48 22, 43 22 H 25 C 25 22, 20 22, 20 27 V 73 C 20 73, 20 78, 25 78 H 43 C 43 78, 48 78, 48 73 C 48 73, 48 68, 53 68 H 63 C 63 68, 68 68, 68 73 V 93 C 68 93, 68 98, 63 98 H 5 C 5 98, 0 98, 0 93 Z" fill="#4B0082" stroke="none" />
+    <symbol id="latin-capital-letter-c" viewBox="0 0 68 100">
+      <path d="M 0 93 v -86 a 5 5 0 0 1 5 -5 h 58 a 5 5 0 0 1 5 5 v 20 a 5 5 0 0 1 -5 5 h -10 a 5 5 0 0 1 -5 -5 a 5 5 0 0 0 -5 -5 h -18 a 5 5 0 0 0 -5 5 v 46 a 5 5 0 0 0 5 5 h 18 a 5 5 0 0 0 5 -5 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 1 5 5 v 20 a 5 5 0 0 1 -5 5 h -58 a 5 5 0 0 1 -5 -5 Z" fill="#4B0082" stroke="none" />
     </symbol>
 
-    <symbol id="i-char" viewBox="0 0 20 100">
+    <symbol id="latin-capital-letter-i" viewBox="0 0 20 100">
       <rect x="0" y="2" rx="5" ry="5" width="20" height="96" fill="#4B0082" stroke="none" />
     </symbol>
 
-    <symbol id="j-char" viewBox="0 0 68 100">
-      <path d="M 0 93 V 73 C 0 73, 0 68, 5 68 H 15 C 15 68, 20 68, 20 73 C 20 73, 20 78, 25 78 H 43 C 43 78, 48 78, 48 73 V 27 C 48 27, 48 22, 43 22 H 39 C 39 22, 34 22, 34 17 V 7 C 34 7, 34 2, 39 2 H 63 C 63 2, 68 2, 68 7 V 93 C 68 93, 68 98, 63 98 H 5 C 5 98, 0 98, 0 93 Z" fill="#4B0082" stroke="none" />
+    <symbol id="latin-capital-letter-j" viewBox="0 0 68 100">
+      <path d="M 0 93 v -20 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 1 5 5 a 5 5 0 0 0 5 5 h 18 a 5 5 0 0 0 5 -5 v -66 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 1 5 5 v 86 a 5 5 0 0 1 -5 5 h -58 a 5 5 0 0 1 -5 -5 Z" fill="#4B0082" stroke="none" />
     </symbol>
 
-    <symbol id="n-char" viewBox="0 0 68 100">
-      <path d="M 0 93 V 7 C 0 7, 0 2, 5 2 H 15 C 15 2, 20 2, 22.5 7 L 46 54 C 46 54, 48 58, 48 54 V 7 C 48 7, 48 2, 53 2 H 63 C 63 2, 68 2, 68 7 V 93 C 68 93, 68 98, 63 98 H 53 C 53 98, 48 98, 45.5 93 L 22 46 C 22 46, 20 42, 20 46 V 93 C 20 93, 20 98, 15 98 H 5 C 5 98, 0 98, 0 93 Z" fill="#4B0082" stroke="none" />
-    </symbol>
-
-    <symbol id="ninja" viewBox="0 0 100 100">
-      <rect x="0" y="0" rx="25" ry="25" width="100" height="100" fill="#4B0082" stroke="none" />
-      <rect x="15" y="30" rx="10" ry="10" width="70" height="25" fill="white" stroke="none" />
-      <rect x="30" y="35" rx="5" ry="5" width="10" height="15" fill="#4B0082" stroke="none" />
-      <rect x="60" y="35" rx="5" ry="5" width="10" height="15" fill="#4B0082" stroke="none" />
+    <symbol id="latin-capital-letter-n" viewBox="0 0 68 100">
+      <path d="M 0 93 v -86 a 5 5 0 0 1 5 -5 h 10 c 0 0, 5 0, 7.5 5 l 23.5 47 c 0 0, 2 4, 2 0 v -47 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 1 5 5 v 86 a 5 5 0 0 1 -5 5 h -10 c 0 0, -5 0, -7.5 -5 l -23.5 -47 c 0 0, -2 -4, -2 0 v 47 a 5 5 0 0 1 -5 5 h -10 a 5 5 0 0 1 -5 -5 Z" fill="#4B0082" stroke="none" />
     </symbol>
   </defs>
 

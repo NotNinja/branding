@@ -68,6 +68,24 @@ These banners can be used everywhere, from website headers to letterheads to sti
 | image/png | [354x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fbanner%2Fpride-fill%2Fnot-ninja-banner-pride-fill-354x100.png) |  |
 | image/svg+xml | [354x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fbanner%2Fpride-fill%2Fnot-ninja-banner-pride-fill.svg) | [not-ninja-banner-pride-fill.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fbanner%2Fpride-fill%2Fnot-ninja-banner-pride-fill.min.svg) |
 
+### not-ninja-banner-pride-invert-fill.svg
+
+[![not-ninja-banner-pride-invert-fill.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fbanner%2Fpride-invert-fill%2Fnot-ninja-banner-pride-invert-fill.svg)](https://github.com/NotNinja/branding/tree/master/assets%2Fbanner%2Fpride-invert-fill)
+
+| Type | Sizes | Optimized |
+| ---- | ----- | --------- |
+| image/png | [354x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fbanner%2Fpride-invert-fill%2Fnot-ninja-banner-pride-invert-fill-354x100.png) |  |
+| image/svg+xml | [354x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fbanner%2Fpride-invert-fill%2Fnot-ninja-banner-pride-invert-fill.svg) | [not-ninja-banner-pride-invert-fill.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fbanner%2Fpride-invert-fill%2Fnot-ninja-banner-pride-invert-fill.min.svg) |
+
+### not-ninja-banner-pride-invert.svg
+
+[![not-ninja-banner-pride-invert.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fbanner%2Fpride-invert%2Fnot-ninja-banner-pride-invert.svg)](https://github.com/NotNinja/branding/tree/master/assets%2Fbanner%2Fpride-invert)
+
+| Type | Sizes | Optimized |
+| ---- | ----- | --------- |
+| image/png | [354x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fbanner%2Fpride-invert%2Fnot-ninja-banner-pride-invert-354x100.png) |  |
+| image/svg+xml | [354x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fbanner%2Fpride-invert%2Fnot-ninja-banner-pride-invert.svg) | [not-ninja-banner-pride-invert.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Fbanner%2Fpride-invert%2Fnot-ninja-banner-pride-invert.min.svg) |
+
 ## Copyright
 
 The copyright assets are very similar to the banner except that it also contains a copyright symbol and the current year, also in our unique bespoke font.
@@ -162,7 +180,7 @@ These logos are ideal for many cases but should ideally only be used when the fu
 
 | Type | Sizes | Optimized |
 | ---- | ----- | --------- |
-| image/svg+xml | [16x16](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-mask%2Fnot-ninja-logo-mask.svg) | [not-ninja-logo-mask.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-mask%2Fnot-ninja-logo-mask.min.svg) |
+| image/svg+xml | [100x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-mask%2Fnot-ninja-logo-mask.svg) | [not-ninja-logo-mask.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-mask%2Fnot-ninja-logo-mask.min.svg) |
 
 ### Pride
 
@@ -250,7 +268,7 @@ These logos are ideal for many cases but should ideally only be used when the fu
 
 | Type | Sizes | Optimized |
 | ---- | ----- | --------- |
-| image/svg+xml | [16x16](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-mask%2Fnot-ninja-logo-text-mask.svg) | [not-ninja-logo-text-mask.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-mask%2Fnot-ninja-logo-text-mask.min.svg) |
+| image/svg+xml | [100x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-mask%2Fnot-ninja-logo-text-mask.svg) | [not-ninja-logo-text-mask.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-mask%2Fnot-ninja-logo-text-mask.min.svg) |
 
 ## Tiles
 

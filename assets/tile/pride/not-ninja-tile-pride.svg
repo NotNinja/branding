@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 100 100">
   <defs>
-    <symbol id="ninja" viewBox="0 0 100 100">
+    <symbol id="tile" viewBox="0 0 100 100">
       <rect x="0" y="0" width="100" height="100" fill="#6F5BA6" stroke="none" />
       <rect x="66.64" y="0" width="16.66" height="100" fill="#2571B6" stroke="none" />
       <rect x="49.98" y="0" width="16.66" height="100" fill="#52B75B" stroke="none" />
@@ -14,5 +14,5 @@
     </symbol>
   </defs>
 
-  <use xlink:href="#ninja" x="0" y="0" width="100" height="100" />
+  <use xlink:href="#tile" x="0" y="0" width="100" height="100" />
 </svg>

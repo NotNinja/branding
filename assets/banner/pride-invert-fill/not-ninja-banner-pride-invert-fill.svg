@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" viewBox="0 0 354 100">
+  <defs>
+    <symbol id="banner" viewBox="0 0 354 100">
+      <use xlink:href="#exclamation-mark" x="2" y="0" width="20" height="100" fill="#E1473E" />
+      <use xlink:href="#latin-capital-letter-n" x="30" y="0" width="68" height="100" fill="#DF7D3B" />
+      <use xlink:href="#latin-capital-letter-i" x="106" y="0" width="20" height="100" fill="#E4D567" />
+      <use xlink:href="#latin-capital-letter-n" x="134" y="0" width="68" height="100" fill="#52B75B" />
+      <use xlink:href="#latin-capital-letter-j" x="210" y="0" width="68" height="100" fill="#2571B6" />
+      <use xlink:href="#latin-capital-letter-a" x="286" y="0" width="68" height="100" fill="#6F5BA6" />
+    </symbol>
+
+    <symbol id="exclamation-mark" viewBox="0 0 20 100">
+    <rect x="1" y="79" rx="5" ry="5" width="18" height="18" fill="#4B0082" stroke="none" />
+      <rect x="0" y="2" rx="5" ry="5" width="20" height="70" stroke="none" />
+      <path d="M 0 93 v -10 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 1 5 5 v 10 a 5 5 0 0 1 -5 5 h -6 v -9 h 6 a 2 2 0 0 0 2 -2 v -1 a 2 2 0 0 0 -2 -2 h -10 a 2 2 0 0 0 -2 2 v 1 a 2 2 0 0 0 2 2 h 6 v 9 h -6 a 5 5 0 0 1 -5 -5 Z" fill="white" stroke="none" />
+      <rect x="6" y="85" rx="1" ry="1" width="2" height="3" fill="white" stroke="none" />
+      <rect x="12" y="85" rx="1" ry="1" width="2" height="3" fill="white" stroke="none" />
+    </symbol>
+
+    <symbol id="latin-capital-letter-a" viewBox="0 0 68 100">
+      <path d="M 0 93 v -86 a 5 5 0 0 1 5 -5 h 10 c 0 0, 5 0, 7.5 5 l 43 86 c 0 0, 2.5 5, -2.5 5 h -10 c 0 0, -5 0, -7.5 -5 l -23.5 -47 c 0 0, -2 -4, -2 0 v 47 a 5 5 0 0 1 -5 5 h -10 a 5 5 0 0 1 -5 -5 Z" stroke="none" />
+    </symbol>
+
+    <symbol id="latin-capital-letter-c" viewBox="0 0 68 100">
+      <path d="M 0 93 v -86 a 5 5 0 0 1 5 -5 h 58 a 5 5 0 0 1 5 5 v 20 a 5 5 0 0 1 -5 5 h -10 a 5 5 0 0 1 -5 -5 a 5 5 0 0 0 -5 -5 h -18 a 5 5 0 0 0 -5 5 v 46 a 5 5 0 0 0 5 5 h 18 a 5 5 0 0 0 5 -5 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 1 5 5 v 20 a 5 5 0 0 1 -5 5 h -58 a 5 5 0 0 1 -5 -5 Z" stroke="none" />
+    </symbol>
+
+    <symbol id="latin-capital-letter-i" viewBox="0 0 20 100">
+      <rect x="0" y="2" rx="5" ry="5" width="20" height="96" stroke="none" />
+    </symbol>
+
+    <symbol id="latin-capital-letter-j" viewBox="0 0 68 100">
+      <path d="M 0 93 v -20 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 1 5 5 a 5 5 0 0 0 5 5 h 18 a 5 5 0 0 0 5 -5 v -66 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 1 5 5 v 86 a 5 5 0 0 1 -5 5 h -58 a 5 5 0 0 1 -5 -5 Z" stroke="none" />
+    </symbol>
+
+    <symbol id="latin-capital-letter-n" viewBox="0 0 68 100">
+      <path d="M 0 93 v -86 a 5 5 0 0 1 5 -5 h 10 c 0 0, 5 0, 7.5 5 l 23.5 47 c 0 0, 2 4, 2 0 v -47 a 5 5 0 0 1 5 -5 h 10 a 5 5 0 0 1 5 5 v 86 a 5 5 0 0 1 -5 5 h -10 c 0 0, -5 0, -7.5 -5 l -23.5 -47 c 0 0, -2 -4, -2 0 v 47 a 5 5 0 0 1 -5 5 h -10 a 5 5 0 0 1 -5 -5 Z" stroke="none" />
+    </symbol>
+  </defs>
+
+  <use xlink:href="#banner" x="0" y="0" width="354" height="100" />
+</svg>
