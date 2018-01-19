@@ -10,7 +10,7 @@
         "files": [
           "@(logo|tile)/**/*.ico",
           "@(banner|copyright|logo|tile)/**/*.min.svg",
-          "@(banner|copyright|logo|tile)/**/*.png"
+          "@(banner|copyright|logo|social|tile)/**/*.png"
         ]
       }
     },
@@ -78,6 +78,15 @@
           512,
           2800
         ]
+      }
+    },
+    {
+      "task": "convert",
+      "input": {
+        "files": "social/**/*.svg"
+      },
+      "output": {
+        "format": "png"
       }
     },
     {
