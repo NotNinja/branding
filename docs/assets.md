@@ -180,7 +180,7 @@ These logos are ideal for many cases but should ideally only be used when the fu
 
 | Type | Sizes | Optimized |
 | ---- | ----- | --------- |
-| image/svg+xml | [100x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-mask%2Fnot-ninja-logo-mask.svg) | [not-ninja-logo-mask.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-mask%2Fnot-ninja-logo-mask.min.svg) |
+| image/svg+xml | [16x16](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-mask%2Fnot-ninja-logo-mask.svg) | [not-ninja-logo-mask.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Fbase-mask%2Fnot-ninja-logo-mask.min.svg) |
 
 ### Pride
 
@@ -268,7 +268,7 @@ These logos are ideal for many cases but should ideally only be used when the fu
 
 | Type | Sizes | Optimized |
 | ---- | ----- | --------- |
-| image/svg+xml | [100x100](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-mask%2Fnot-ninja-logo-text-mask.svg) | [not-ninja-logo-text-mask.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-mask%2Fnot-ninja-logo-text-mask.min.svg) |
+| image/svg+xml | [16x16](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-mask%2Fnot-ninja-logo-text-mask.svg) | [not-ninja-logo-text-mask.min.svg](https://cdn.rawgit.com/NotNinja/branding/master/assets%2Flogo%2Ftext-mask%2Fnot-ninja-logo-text-mask.min.svg) |
 
 ## Tiles
 
