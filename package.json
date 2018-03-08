@@ -22,7 +22,7 @@
     "url": "https://github.com/NotNinja/branding.git"
   },
   "dependencies": {
-    "brander": "^0.1.4"
+    "brander": "^0.1.6"
   },
   "scripts": {
     "start": "brander"
