@@ -121,7 +121,18 @@
       "sections": [
         {
           "type": "template",
-          "content": "    888 888b    888 888 888b    888        8888 8888b\n    888 8888b   888 888 8888b   888        8888 88888b\n    888 88888b  888 888 88888b  888         888 888Y88b\n    888 888Y88b 888 888 888Y88b 888         888 888 Y88b\n    888 888 Y88b888 888 888 Y88b888         888 888  Y88b\n        888  Y88888 888 888  Y88888 888     888 888   Y88b\n    8\"8 888   Y8888 888 888   Y8888 88888888888 888    Y88b\n    888 888    Y888 888 888    Y888 88888888888 888     Y88b\n\nThis repository contains branding assets and guidelines for [<%= config.title %>](<%= config.homepage %>)."
+          "content": [
+            "    888 888b    888 888 888b    888        8888 8888b",
+            "    888 8888b   888 888 8888b   888        8888 88888b",
+            "    888 88888b  888 888 88888b  888         888 888Y88b",
+            "    888 888Y88b 888 888 888Y88b 888         888 888 Y88b",
+            "    888 888 Y88b888 888 888 Y88b888         888 888  Y88b",
+            "        888  Y88888 888 888  Y88888 888     888 888   Y88b",
+            "    8\"8 888   Y8888 888 888   Y8888 88888888888 888    Y88b",
+            "    888 888    Y888 888 888    Y888 88888888888 888     Y88b",
+            "",
+            "This repository contains branding assets and guidelines for [<%= config.title %>](<%= config.homepage %>)."
+          ]
         },
         {
           "type": "toc",
@@ -136,12 +147,39 @@
         {
           "title": "Using Assets",
           "type": "template",
-          "content": "All assets are owned by <%= config.title %> and intended for use by <%= config.title %>, however, we are an open organization so if you wish to use our assets, simply ask us for permission to do so, detailing who/what/when/where/why you intend to use them.\n\nThe best way to get in touch with us is via [email](mailto:<%= config.email %>) or on [slack](https://slack.not.ninja)."
+          "content": [
+            "All assets are owned by <%= config.title %> and intended for use by <%= config.title %>, however, we are an open organization so if you wish to use our assets, simply ask us for permission to do so, detailing who/what/when/where/why you intend to use them.",
+            "",
+            "The best way to get in touch with us is via [email](mailto:<%= config.email %>) or on [slack](https://slack.not.ninja)."
+          ]
         },
         {
           "title": "Generating Assets",
           "type": "template",
-          "content": "The assets and documentation within this repository are generated using [Brander](https://github.com/NotNinja/brander) based on our `.branderrc.json` configuration file.\n\nTo get started, first clone the repository:\n\n``` bash\n$ git clone <%= config.repository.url %>\n$ cd <%= config.repository.name %>\n```\n\nThen install all of the necessary dependencies:\n\n``` bash\n<%= config.repository.name %>$ npm install\n```\n\nNow you can easily generate all assets and documentation after making whatever changes you want to the configuration file or asset sources:\n\n``` bash\n<%= config.repository.name %>$ npm start\n```\n\nIf successful, it should end with \"Done!\"."
+          "content": [
+            "The assets and documentation within this repository are generated using [Brander](https://github.com/NotNinja/brander) based on our `.branderrc.json` configuration file.",
+            "",
+            "To get started, first clone the repository:",
+            "",
+            "``` bash",
+            "$ git clone <%= config.repository.url %>",
+            "$ cd <%= config.repository.name %>",
+            "```",
+            "",
+            "Then install all of the necessary dependencies:",
+            "",
+            "``` bash",
+            "<%= config.repository.name %>$ npm install",
+            "```",
+            "",
+            "Now you can easily generate all assets and documentation after making whatever changes you want to the configuration file or asset sources:",
+            "",
+            "``` bash",
+            "<%= config.repository.name %>$ npm start",
+            "```",
+            "",
+            "If successful, it should end with \"Done!\"."
+          ]
         }
       ]
     },
@@ -160,7 +198,11 @@
         {
           "title": "Banners",
           "type": "template",
-          "content": "The banner assets are the best way of getting our brand across. It contains the fully organization name in our unique bespoke font as well as our recognizable ninja icon hidden away inside of it.\n\nThese banners can be used everywhere, from website headers to letterheads to stickers and promotional material. Just ensure that you choose the version that shows best on the background of the target document."
+          "content": [
+            "The banner assets are the best way of getting our brand across. It contains the fully organization name in our unique bespoke font as well as our recognizable ninja icon hidden away inside of it.",
+            "",
+            "These banners can be used everywhere, from website headers to letterheads to stickers and promotional material. Just ensure that you choose the version that shows best on the background of the target document."
+          ]
         },
         {
           "type": "asset-feature",
@@ -183,7 +225,11 @@
         {
           "title": "Copyright",
           "type": "template",
-          "content": "The copyright assets are very similar to the banner except that it also contains a copyright symbol and the current year, also in our unique bespoke font.\n\nThese copyright notices are intended for use on project pages (e.g. GitHub). It is recommended that pure text copyright notices are used on all !ninja websites, web-based applications, and printed material instead."
+          "content": [
+            "The copyright assets are very similar to the banner except that it also contains a copyright symbol and the current year, also in our unique bespoke font.",
+            "",
+            "These copyright notices are intended for use on project pages (e.g. GitHub). It is recommended that pure text copyright notices are used on all !ninja websites, web-based applications, and printed material instead."
+          ]
         },
         {
           "type": "asset-feature",
@@ -204,7 +250,11 @@
         {
           "title": "Logos",
           "type": "template",
-          "content": "The logo assets are a great way of getting our brand across. The base logo is usually preferred as it has an immediate impact since it consists entirely of our little ninja. Alternatively, since the text logo contains an (extremely) abbreviated name for our organization, \"!N\", in our unique bespoke font as well as our recognizable ninja icon hidden away inside of it, it is a great substitution for a full banner when space is tight as it's basically just the first 2 characters of our banner assets.\n\nThese logos are ideal for many cases but should ideally only be used when the full organization name is included in at least one other location on the same document. We should not rely on brand recognition solely on our logos. That said; they can be used absolutely anywhere that the banner could be used. The base logo is especially suited for icons and stickers."
+          "content": [
+            "The logo assets are a great way of getting our brand across. The base logo is usually preferred as it has an immediate impact since it consists entirely of our little ninja. Alternatively, since the text logo contains an (extremely) abbreviated name for our organization, \"!N\", in our unique bespoke font as well as our recognizable ninja icon hidden away inside of it, it is a great substitution for a full banner when space is tight as it's basically just the first 2 characters of our banner assets.",
+            "",
+            "These logos are ideal for many cases but should ideally only be used when the full organization name is included in at least one other location on the same document. We should not rely on brand recognition solely on our logos. That said; they can be used absolutely anywhere that the banner could be used. The base logo is especially suited for icons and stickers."
+          ]
         },
         {
           "type": "asset-feature",
@@ -260,7 +310,13 @@
         {
           "title": "Social",
           "type": "template",
-          "content": "The social assets are simply those used to decorate profile pages across various social media platforms. They are all variations of the same theme to provided consistency.\n\nThese images are only intended to be used on their respective platforms.\n\nThe [background image](https://www.pexels.com/photo/bamboo-plant-129916/) used in each of the social images was taken by Erol Ahmed and was sourced from [Pexels](https://www.pexels.com) and used under the Creative Commons Zero (CC0) license."
+          "content": [
+            "The social assets are simply those used to decorate profile pages across various social media platforms. They are all variations of the same theme to provided consistency.",
+            "",
+            "These images are only intended to be used on their respective platforms.",
+            "",
+            "The [background image](https://www.pexels.com/photo/bamboo-plant-129916/) used in each of the social images was taken by Erol Ahmed and was sourced from [Pexels](https://www.pexels.com) and used under the Creative Commons Zero (CC0) license."
+          ]
         },
         {
           "type": "asset-feature",
@@ -386,7 +442,11 @@
     "docs": {
       "footer": {
         "type": "template",
-        "content": "---\n\n[![Copyright <%= config.title %>](<%= config.assetURL([ config.assetsDir, 'copyright/base/not-ninja-copyright-372x50.png' ]) %>)](<%= config.homepage %>)"
+        "content": [
+          "---",
+          "",
+          "[![Copyright <%= config.title %>](<%= config.assetURL([ config.assetsDir, 'copyright/base/not-ninja-copyright-372x50.png' ]) %>)](<%= config.homepage %>)"
+        ]
       }
     }
   }
